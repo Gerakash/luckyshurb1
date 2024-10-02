@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cormorant Garamond", serif;
+}
+
+body {
+    background-image: url('img/body-img.jpg'); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 4rem;
+    background-color: rgb(222, 222, 222, 0.5);
+    position: sticky;
+    width: 100%;
+}
+
+.logo{
+    width: 50px;
+    height: 100px;
+}
+
+.nav{
+    display: flex;
+    gap: 5rem;
+}
+
+.nav a{
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.nav a:hover{
+    transform: scale(1.2);
+    font-weight: bold;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 90vh;
+    min-width: 100%;
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(175, 213, 175, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+}
+
+.main-msg{
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(87, 65, 65);
+    text-align: center;
+}
+
+.main-btn{
+    font-family: "Cormorant Garamond", serif;
+    background-color: rgb(87, 65, 65);
+    margin: 1rem;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    color: rgb(222, 222, 222);
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.main-btn:hover{
+    background-color: rgb(113, 75, 75);
+    transform: scale(1.1);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 4rem;
+    background-color: rgb(222, 222, 222, 0.5);
+    width: 100%;
+}
