@@ -37,6 +37,7 @@ body {
 .nav a{
     transition: transform 0.3s ease;
     cursor: pointer;
+    color: rgb(87, 65, 65);
 }
 
 .nav a:hover{
@@ -94,4 +95,10 @@ body {
     padding: 1.5rem 4rem;
     background-color: rgb(222, 222, 222, 0.5);
     width: 100%;
+    color: rgb(87, 65, 65);
+    backdrop-filter: blur(10px);
+}
+
+.footer p{
+    font-size: 1rem;
 }
